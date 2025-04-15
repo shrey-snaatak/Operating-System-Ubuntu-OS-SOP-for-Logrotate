@@ -55,8 +55,8 @@ sudo apt install logrotate
 | Requirement | Minimum Specification |
 | --- | --- |
 | Processor | Dual-Core |
-| RAM | 1 GB |
-| Disk Space | 10 GB |
+| RAM | 4 GB |
+| Disk Space | 25 GB |
 | Operating System | Ubuntu 22.04 |
 
 ## Configuration
