@@ -51,6 +51,74 @@ sudo apt install logrotate
 
 ```
 
+Let’s create a sample application log and rotate it using logrotate.
+
+### 1. Create a Custom Log Directory & Log File
+
+```bash
+
+mkdir -p ~/demo-logs
+echo "This is a test log entry." > ~/demo-logs/myapp.log
+```
+
+### 2. Create a Custom Logrotate Configuration
+
+Create a file under `/etc/logrotate.d/` to manage this log:
+
+```bash
+
+sudo nano /etc/logrotate.d/myapp
+```
+
+Paste this into the file:
+
+```
+nginx
+CopyEdit
+/home/YOUR_USERNAME/demo-logs/myapp.log {
+    daily
+    rotate 7
+    compress
+    missingok
+    notifempty
+    create 0644 $USER $USER
+}
+
+```
+
+> 🔁 Replace YOUR_USERNAME with your actual Linux username (you can run whoami to get it).
+> 
+
+Save and exit.
+
+---
+
+### 3. Force a Log Rotation (Test)
+
+To manually trigger rotation and check if everything works:
+
+```bash
+
+sudo logrotate -f /etc/logrotate.d/myapp
+
+```
+
+Check the contents of the log directory:
+
+```bash
+
+ls -lh ~/demo-logs
+
+```
+
+You should see a compressed file like:
+
+```bash
+
+myapp.log.1.gz
+myapp.log
+
+```
 ### System Requirements
 
 | Requirement | Minimum Specification |
