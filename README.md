@@ -1,6 +1,6 @@
 # SOP for Logrotate
 
-![image](https://github.com/user-attachments/assets/3cb703a5-1073-4025-aed4-9820cce85359)
+![image](https://github.com/user-attachments/assets/5dd6fb63-ff55-42eb-ad58-2d7a2a93b812)
 
 | **Author** | **Created on** | **Version** | Pre Reviewer |           L0 |            L1 |             L2 |
 | --- | --- | --- | --- | --- | --- | --- |
