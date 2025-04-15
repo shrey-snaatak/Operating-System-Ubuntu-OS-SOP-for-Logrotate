@@ -1,6 +1,8 @@
-# SOP for Logrotate
+<p align="center">
+  <img src="https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png" alt="Ubuntu Logo" width="200"/>
+</p>
 
-![image](https://github.com/user-attachments/assets/656300b9-6b5d-4f1a-bf89-a12299fa5543)
+# SOP for Logrotate
 
 | **Author** | **Created on** | **Version** | Pre Reviewer |           L0 |            L1 |             L2 |
 | --- | --- | --- | --- | --- | --- | --- |
