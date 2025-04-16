@@ -6,7 +6,7 @@
 
 | **Author** | **Created on** | **Version** | Pre Reviewer |           L0 |            L1 |             L2 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shrey | 14-08-25 | version 1 | Komal Jaiswal |         Imran |         Shahsi |  Mahesh Kumar |
+| Shrey | 14-04-25 | version 1 | Komal Jaiswal |         Imran |         Shahsi |  Mahesh Kumar |
 
 ## Introduction
 Effective log management in Linux is crucial for maintaining system health, performance, and security. Logs are invaluable records of system events, application behavior, and security incidents. However, these logs can quickly grow out of control without proper management, consuming valuable disk space and leading to potential system issues. This is where log rotation comes into play. Regularly rotating logs ensures they are archived systematically, preventing disk space exhaustion and enhancing overall system performance.
